@@ -1,0 +1,445 @@
+WinCE ROM image inventory  (base 0x80361000, cpu 0x1c2)
+Modules: 186   Files: 253
+
+== MODULES (XIP, native code) ==
+  nk.exe                             size=62976    vbase=0x80361000
+  kernel.dll                         size=250368   vbase=0x80372000
+  osaxst0.dll                        size=41472    vbase=0xc0010000
+  hd.dll                             size=5120     vbase=0xc0030000
+  coredll.dll                        size=592384   vbase=0x40010000
+  oalioctl.dll                       size=4096     vbase=0xc0040000
+  k.coredll.dll                      size=591360   vbase=0xc0050000
+  fpcrt.dll                          size=59392    vbase=0x400b0000
+  k.fpcrt.dll                        size=59392    vbase=0xc00f0000
+  filesys.dll                        size=245248   vbase=0xc0110000
+  romfsd.dll                         size=10752    vbase=0xc0160000
+  gwes.dll                           size=667136   vbase=0xc0170000
+  mgtt_o.dll                         size=210432   vbase=0xc0220000
+  device.dll                         size=4096     vbase=0xc0260000
+  udevice.exe                        size=14336    vbase=0x10000
+  devmgr.dll                         size=63488    vbase=0xc0270000
+  regenum.dll                        size=7168     vbase=0xc0290000
+  busenum.dll                        size=14848    vbase=0xc02a0000
+  pm.dll                             size=48128    vbase=0xc02b0000
+  servicesEnum.dll                   size=14848    vbase=0xc02c0000
+  servicesd.exe                      size=28160    vbase=0x10000
+  services.exe                       size=11264    vbase=0x10000
+  servicesStart.exe                  size=4096     vbase=0x10000
+  exfat.dll                          size=101888   vbase=0xc02d0000
+  diskcache.dll                      size=11776    vbase=0xc02f0000
+  fatutil.dll                        size=54784    vbase=0x400d0000
+  k.fatutil.dll                      size=54784    vbase=0xc0300000
+  shell.exe                          size=55808    vbase=0x10000
+  shellcelog.dll                     size=11264    vbase=0x400f0000
+  toolhelp.dll                       size=7168     vbase=0x40100000
+  k.toolhelp.dll                     size=7168     vbase=0xc0320000
+  zlib.dll                           size=39424    vbase=0x40110000
+  console.dll                        size=38912    vbase=0x40120000
+  cmd.exe                            size=70656    vbase=0x10000
+  net.exe                            size=12800    vbase=0x10000
+  commctrl.dll                       size=397312   vbase=0x40130000
+  commdlg.dll                        size=88576    vbase=0x401a0000
+  fsdmgr.dll                         size=133120   vbase=0xc0330000
+  mspart.dll                         size=21504    vbase=0xc0360000
+  ceddk.dll                          size=24064    vbase=0x401c0000
+  k.ceddk.dll                        size=24064    vbase=0xc0370000
+  netmui.dll                         size=4608     vbase=0x401d0000
+  cxport.dll                         size=22016    vbase=0xc0380000
+  iphlpapi.dll                       size=55808    vbase=0x401e0000
+  k.iphlpapi.dll                     size=55808    vbase=0xc0390000
+  ws2.dll                            size=39424    vbase=0x40200000
+  k.ws2.dll                          size=39424    vbase=0xc03b0000
+  ws2instl.dll                       size=9728     vbase=0xc03c0000
+  wspm.dll                           size=9216     vbase=0x40210000
+  k.wspm.dll                         size=9216     vbase=0xc03d0000
+  nspm.dll                           size=10752    vbase=0x40220000
+  k.nspm.dll                         size=10752    vbase=0xc03e0000
+  ws2k.dll                           size=53248    vbase=0xc03f0000
+  ws2serv.dll                        size=33792    vbase=0x40230000
+  ssllsp.dll                         size=32768    vbase=0x40240000
+  k.ssllsp.dll                       size=32768    vbase=0xc0410000
+  schannel.dll                       size=100864   vbase=0x40250000
+  k.schannel.dll                     size=100864   vbase=0xc0420000
+  credsvc.dll                        size=56832    vbase=0x40270000
+  ipseccfg.exe                       size=40448    vbase=0x10000
+  afd.dll                            size=133120   vbase=0xc0440000
+  dnsapi.dll                         size=4608     vbase=0x40290000
+  k.dnsapi.dll                       size=4608     vbase=0xc0470000
+  netapi32.dll                       size=14336    vbase=0x402a0000
+  ndis.dll                           size=135168   vbase=0xc0480000
+  netui.dll                          size=215552   vbase=0x402b0000
+  ndisuio.dll                        size=22528    vbase=0xc04b0000
+  dhcp.dll                           size=29696    vbase=0xc04c0000
+  tcpip6.dll                         size=272384   vbase=0xc04d0000
+  dhcpv6l.dll                        size=39936    vbase=0xc0520000
+  ipv6hlp.dll                        size=30208    vbase=0xc0530000
+  tcpstk.dll                         size=335872   vbase=0xc0540000
+  redir.dll                          size=153600   vbase=0xc05a0000
+  netbios.dll                        size=39936    vbase=0xc05d0000
+  wldap32.dll                        size=163840   vbase=0x402f0000
+  lpcd.dll                           size=27648    vbase=0x40320000
+  lpcrt.dll                          size=7168     vbase=0x40330000
+  ping.exe                           size=14336    vbase=0x10000
+  ipconfig.exe                       size=15360    vbase=0x10000
+  ndisconfig.exe                     size=11264    vbase=0x10000
+  route.exe                          size=15360    vbase=0x10000
+  netstat.exe                        size=21504    vbase=0x10000
+  tracert.exe                        size=12288    vbase=0x10000
+  ipv6.exe                           size=49664    vbase=0x10000
+  ipv6tun.exe                        size=12800    vbase=0x10000
+  serial.dll                         size=29184    vbase=0xc05e0000
+  usbd.dll                           size=25600    vbase=0xc05f0000
+  usbmsc.dll                         size=20992    vbase=0xc0600000
+  usbdisk6.dll                       size=21504    vbase=0xc0610000
+  mmtimer.dll                        size=7680     vbase=0x40340000
+  k.mmtimer.dll                      size=7680     vbase=0xc0620000
+  eventlog.dll                       size=34816    vbase=0xc0630000
+  eventlogMsgs.dll                   size=6144     vbase=0xc0640000
+  uiproxy.dll                        size=5120     vbase=0x40350000
+  secur32.dll                        size=12800    vbase=0x40360000
+  k.secur32.dll                      size=12800    vbase=0xc0650000
+  kerberos.dll                       size=197120   vbase=0x40370000
+  k.kerberos.dll                     size=197120   vbase=0xc0660000
+  msasn1.dll                         size=44032    vbase=0x403b0000
+  k.msasn1.dll                       size=44032    vbase=0xc06a0000
+  crypt32.dll                        size=279552   vbase=0x403c0000
+  k.crypt32.dll                      size=279552   vbase=0xc06b0000
+  cryptdll.dll                       size=24576    vbase=0x40410000
+  k.cryptdll.dll                     size=24576    vbase=0xc0700000
+  winsock.dll                        size=6656     vbase=0x40420000
+  k.winsock.dll                      size=6656     vbase=0xc0710000
+  credprov.dll                       size=6144     vbase=0x40430000
+  spnego.dll                         size=41472    vbase=0x40440000
+  k.spnego.dll                       size=41472    vbase=0xc0720000
+  ole32.dll                          size=480256   vbase=0x40450000
+  oleaut32.dll                       size=198656   vbase=0x404d0000
+  dcomssd.dll                        size=99328    vbase=0x40510000
+  dllhost.exe                        size=9216     vbase=0x10000
+  rpcrt4.dll                         size=327168   vbase=0x40530000
+  imaging.dll                        size=355840   vbase=0x40590000
+  mlang.dll                          size=143872   vbase=0x405f0000
+  shlwapi.dll                        size=136192   vbase=0x40620000
+  IECEExt.dll                        size=12800    vbase=0x40650000
+  msxml3.dll                         size=920064   vbase=0x40660000
+  wininet.dll                        size=476672   vbase=0x40750000
+  jsproxy.dll                        size=19456    vbase=0x407d0000
+  urlmon.dll                         size=322560   vbase=0x407e0000
+  vbscript.dll                       size=555008   vbase=0x40840000
+  httpd.dll                          size=105984   vbase=0x408d0000
+  asp.dll                            size=78848    vbase=0x408f0000
+  httpdadm.dll                       size=52224    vbase=0x40910000
+  ftpd.dll                           size=50688    vbase=0x40930000
+  ceshell.dll                        size=290304   vbase=0x40950000
+  shcore.dll                         size=11264    vbase=0x409a0000
+  DwCtlPnl.cpl                       size=16384    vbase=0x409b0000
+  DwXfer.dll                         size=16384    vbase=0xc0730000
+  control.exe                        size=17408    vbase=0x10000
+  ctlpnl.exe                         size=7680     vbase=0x10000
+  cplmain.cpl                        size=169472   vbase=0x409c0000
+  intll.cpl                          size=52224    vbase=0x409f0000
+  wceload.exe                        size=59392    vbase=0x10000
+  unload.exe                         size=15360    vbase=0x10000
+  mscoree.dll                        size=67088    vbase=0x40a10000
+  mscoree3_5.dll                     size=943280   vbase=0x40a30000
+  netcfagl3_5.dll                    size=254112   vbase=0x40b20000
+  netcfd3dm3_5.dll                   size=168480   vbase=0x40b60000
+  cgacutil.exe                       size=22904    vbase=0x10000
+  SH600_NandFlash.dll                size=50688    vbase=0xc0740000
+  SH600_gpio.dll                     size=13312    vbase=0xc0760000
+  SH600_spi.dll                      size=9728     vbase=0xc0770000
+  SH600_i2c.dll                      size=9728     vbase=0xc0780000
+  SH600_ADC.dll                      size=8192     vbase=0xc0790000
+  P500_gmacndis.dll                  size=25600    vbase=0xc07a0000
+  SH600_ehci.dll                     size=74240    vbase=0xc07b0000
+  SH600_ohci.dll                     size=58368    vbase=0xc07d0000
+  AgilentLicensingUnmanaged.dll      size=15872    vbase=0x40b90000
+  AgilentLxiUnmanaged.dll            size=10240    vbase=0x40ba0000
+  AgilentSStorageUnmanaged.dll       size=6656     vbase=0x40bb0000
+  AgilentSysMngmntUnmanaged.dll      size=9728     vbase=0x40bc0000
+  Agilent.Cdf.Api.Unmanaged.dll      size=25088    vbase=0x40bd0000
+  NativeInteropShim.dll              size=25088    vbase=0x40be0000
+  AgilentLxiWebComServer.exe         size=68096    vbase=0x10000
+  Agilent.Cdf.Core.Lxi.Web.ComServer.ProxyStub.dll size=31232    vbase=0x40bf0000
+  Agilent.Cdf.Core.Lxi.Web.ComServer.dll size=56832    vbase=0x40c00000
+  LxiMdnsResponder.dll               size=184320   vbase=0x40c20000
+  PalCaps.dll                        size=29032    vbase=0x40c70000
+  PalSStorage.dll                    size=40296    vbase=0x40c80000
+  PalSysManagement.dll               size=38248    vbase=0x40c90000
+  PalWin32.dll                       size=20328    vbase=0x40ca0000
+  AgilentPalCaps.dll                 size=24296    vbase=0x40cb0000
+  AgilentPalSStorage.dll             size=25832    vbase=0x40cc0000
+  AgilentPalSysManagement.dll        size=26344    vbase=0x40cd0000
+  AgilentPalWin32.dll                size=24296    vbase=0x40ce0000
+  MapMemoryIntoUserSpace.dll         size=6656     vbase=0xc07f0000
+  laninit.dll                        size=20992    vbase=0xc0800000
+  k.PalSStorage.dll                  size=31080    vbase=0xc0810000
+  ehci.dll                           size=75264    vbase=0x40cf0000
+  AgtFlashHelper.dll                 size=4096     vbase=0xc0820000
+  Ssh600_nandflash.dll               size=50688    vbase=0xc0830000
+  nand320_uboo.dll                   size=31232    vbase=0xc0850000
+  sh600_serial.dll                   size=19456    vbase=0xc0860000
+  sh600_dmac.dll                     size=14336    vbase=0xc0870000
+  GpibOverSPI_P500_CE6.dll           size=8704     vbase=0xc0880000
+  TMC_UsbFn.dll                      size=30208    vbase=0xc0890000
+  AgCompositeUSB.dll                 size=53248    vbase=0xc08a0000
+  stm320_UsbFnBusDriver.dll          size=87040    vbase=0xc08c0000
+  MTPUSBFnDll.dll                    size=67584    vbase=0x40d10000
+  usbfnproxy.dll                     size=11264    vbase=0xc08e0000
+  MTPServiceDll.dll                  size=448000   vbase=0x40d30000
+  Customization.exe                  size=9216     vbase=0x10000
+  DiskUtilShim.dll                   size=5632     vbase=0x40db0000
+
+== FILES ==
+  ceconfig.h                                     real=16557     comp=3574      LZX
+  wince.nls                                      real=208590    comp=208590    stored
+  initobj.dat                                    real=45964     comp=7659      LZX
+  default.fdf                                    real=192370    comp=47858     LZX
+  initdb.ini                                     real=8763      comp=2644      LZX
+  close.2bp                                      real=134       comp=134       stored
+  ok.2bp                                         real=134       comp=134       stored
+  stdsm.2bp                                      real=1030      comp=598       LZX
+  viewsm.2bp                                     real=838       comp=456       LZX
+  stdsm.bmp                                      real=2038      comp=702       LZX
+  viewsm.bmp                                     real=1654      comp=518       LZX
+  rsaenh.dll                                     real=176120    comp=96016     LZX
+  sysroots.p7b                                   real=8211      comp=5112      LZX
+  ntlmssp.dll                                    real=51712     comp=17544     LZX
+  ntlmssp_svc.dll                                real=87040     comp=38129     LZX
+  arialbd.ttf                                    real=289940    comp=289940    stored
+  arialbi.ttf                                    real=228180    comp=228180    stored
+  ariali.ttf                                     real=209248    comp=209248    stored
+  arialk.ttf                                     real=118868    comp=118868    stored
+  arial.ttf                                      real=160724    comp=160724    stored
+  cour.ttf                                       real=169464    comp=169464    stored
+  tahoma.ttf                                     real=135848    comp=135848    stored
+  httpd_default.htm                              real=961       comp=588       LZX
+  httpd-admin.htm                                real=1231      comp=764       LZX
+  httpd-home.htm                                 real=4035      comp=1602      LZX
+  httpd-logging.htm                              real=1710      comp=908       LZX
+  httpd-netint.htm                               real=3281      comp=1452      LZX
+  httpd-newwebfinished.htm                       real=1816      comp=1022      LZX
+  httpd-newwebsite.htm                           real=1482      comp=870       LZX
+  httpd-newwebvdirs.htm                          real=3058      comp=1482      LZX
+  httpd-sites.htm                                real=1234      comp=764       LZX
+  httpd-ssl.htm                                  real=1385      comp=810       LZX
+  httpd-users.htm                                real=1292      comp=776       LZX
+  httpd-vroot.htm                                real=8470      comp=3310      LZX
+  httpd-vrootlist.htm                            real=2811      comp=1192      LZX
+  httpd-website.htm                              real=3587      comp=1484      LZX
+  httpd-i-authlevel.htm                          real=1728      comp=876       LZX
+  httpd-i-authoverview.htm                       real=2992      comp=1432      LZX
+  httpd-i-authtypes.htm                          real=2313      comp=1196      LZX
+  httpd-i-dirbrowse.htm                          real=2005      comp=1014      LZX
+  httpd-i-home.htm                               real=1972      comp=910       LZX
+  httpd-i-logging.htm                            real=2069      comp=1060      LZX
+  httpd-i-overview.htm                           real=2460      comp=1246      LZX
+  httpd-i-permissions.htm                        real=1030      comp=656       LZX
+  httpd-i-setpaths.htm                           real=1772      comp=964       LZX
+  httpd-i-ssl.htm                                real=1978      comp=1090      LZX
+  httpd-i-upload.htm                             real=2446      comp=1270      LZX
+  httpd-i-userlists.htm                          real=2570      comp=1242      LZX
+  httpd-i-vdirs.htm                              real=3601      comp=1664      LZX
+  httpd-i-webadmin.htm                           real=1831      comp=980       LZX
+  httpd-i-website.htm                            real=4908      comp=2427      LZX
+  copyrts.txt                                    real=739       comp=502       LZX
+  asterisk.wav                                   real=3116      comp=1862      LZX
+  close.wav                                      real=3388      comp=1822      LZX
+  critical.wav                                   real=2970      comp=2610      LZX
+  default.wav                                    real=2682      comp=898       LZX
+  empty.wav                                      real=3946      comp=2984      LZX
+  exclam.wav                                     real=9204      comp=3734      LZX
+  infbeg.wav                                     real=5656      comp=2283      LZX
+  infend.wav                                     real=1778      comp=1000      LZX
+  infintr.wav                                    real=2088      comp=1980      LZX
+  menupop.wav                                    real=834       comp=824       LZX
+  menusel.wav                                    real=360       comp=360       stored
+  openprog.wav                                   real=3388      comp=1964      LZX
+  question.wav                                   real=1836      comp=1314      LZX
+  startup.wav                                    real=8508      comp=6624      LZX
+  windmax.wav                                    real=2712      comp=2112      LZX
+  windmin.wav                                    real=2866      comp=2140      LZX
+  recstart.wav                                   real=3388      comp=1964      LZX
+  recend.wav                                     real=3388      comp=1822      LZX
+  GAC_CustomMarshalers_v3_5_0_0_cneutral_1.dll   real=16936     comp=9834      LZX
+  GAC_Microsoft.VisualBasic_v8_1_0_0_cneutral_1.dll real=349744    comp=138253    LZX
+  GAC_Microsoft.WindowsCE.Forms_v3_5_0_0_cneutral_1.dll real=34360     comp=17342     LZX
+  GAC_Microsoft.WindowsMobile.DirectX_v3_5_0_0_cneutral_1.dll real=185920    comp=75061     LZX
+  GAC_mscorlib_v3_5_0_0_cneutral_1.dll           real=938160    comp=360909    LZX
+  GAC_System.Data_v3_5_0_0_cneutral_1.dll        real=709656    comp=300179    LZX
+  GAC_System_v3_5_0_0_cneutral_1.dll             real=526504    comp=233064    LZX
+  GAC_System.Drawing_v3_5_0_0_cneutral_1.dll     real=60960     comp=29026     LZX
+  GAC_System.Messaging_v3_5_0_0_cneutral_1.dll   real=77352     comp=34950     LZX
+  GAC_System.Net.IrDA_v3_5_0_0_cneutral_1.dll    real=20000     comp=11132     LZX
+  GAC_System.Web.Services_v3_5_0_0_cneutral_1.dll real=67112     comp=32956     LZX
+  GAC_System.Windows.Forms_v3_5_0_0_cneutral_1.dll real=280112    comp=126110    LZX
+  GAC_System.Xml_v3_5_0_0_cneutral_1.dll         real=1040048   comp=428145    LZX
+  GAC_System.Core_v3_5_0_0_cneutral_1.dll        real=88088     comp=35619     LZX
+  GAC_System.Data.DataSetExtensions_v3_5_0_0_cneutral_1.dll real=35904     comp=18222     LZX
+  GAC_System.Runtime.Serialization_v3_5_0_0_cneutral_1.dll real=42048     comp=20960     LZX
+  GAC_System.ServiceModel_v3_5_0_0_cneutral_1.dll real=474152    comp=199637    LZX
+  GAC_System.Xml.Linq_v3_5_0_0_cneutral_1.dll    real=92704     comp=42458     LZX
+  GAC_System.SR_v3_5_0_0_cneutral_1.dll          real=345112    comp=138666    LZX
+  GAC_Microsoft.VisualBasic.SR_v8_1_0_0_cneutral_1.dll real=63032     comp=21765     LZX
+  SH600_ddi.dll                                  real=178176    comp=82307     LZX
+  kbdmouse.dll                                   real=23040     comp=12071     LZX
+  Agilent.Cdf.Api.dll                            real=155648    comp=56479     LZX
+  Agilent.Cdf.Api.ApplicationFramework.dll       real=64512     comp=27133     LZX
+  Agilent.Cdf.Api.Licensing.dll                  real=90112     comp=38259     LZX
+  Agilent.Cdf.Api.Lxi.dll                        real=193536    comp=80883     LZX
+  Agilent.Cdf.Api.Physics.dll                    real=44544     comp=18318     LZX
+  Agilent.Cdf.Api.Security.dll                   real=70656     comp=29395     LZX
+  Agilent.Cdf.Api.Security.ScpiCommands.dll      real=9728      comp=4692      LZX
+  Agilent.Cdf.Api.SystemManagement.dll           real=34816     comp=12768     LZX
+  Agilent.Cdf.Api.UI.Scpi.dll                    real=612352    comp=256975    LZX
+  Agilent.Cdf.Core.Lxi.Web.ComServer.Interop.dll real=9216      comp=3900      LZX
+  HostIDChangedHandler.exe                       real=8192      comp=3619      LZX
+  OpenNETCF.dll                                  real=238080    comp=105518    LZX
+  Agilent.Cdf.Api.Gui.dll                        real=39936     comp=17231     LZX
+  LxiInstrumentIO.dll                            real=127488    comp=59553     LZX
+  ConfigAdvanced.asp                             real=6372      comp=2367      LZX
+  ConfigModify.asp                               real=40464     comp=10387     LZX
+  ConfigView.asp                                 real=7543      comp=2073      LZX
+  ControlInstrument.asp                          real=2783      comp=1160      LZX
+  DataGet.asp                                    real=5591      comp=1567      LZX
+  DataSend.asp                                   real=3005      comp=1188      LZX
+  DataTransfer.asp                               real=2244      comp=972       LZX
+  EventLog.asp                                   real=11931     comp=3286      LZX
+  favicon.ico                                    real=33151     comp=1782      LZX
+  GetImage.asp                                   real=3330      comp=1302      LZX
+  Index.asp                                      real=20404     comp=4862      LZX
+  Index.html                                     real=606       comp=444       LZX
+  InstrumentIO.asp                               real=13440     comp=3745      LZX
+  SaveRecall.asp                                 real=3003      comp=1124      LZX
+  Index_renameUnique.asp                         real=3854      comp=1176      LZX
+  Login.asp                                      real=8145      comp=2755      LZX
+  LogOut.asp                                     real=172       comp=172       stored
+  PasswordDisable.asp                            real=4896      comp=2067      LZX
+  PasswordEnable.asp                             real=12188     comp=3472      LZX
+  PasswordModify.asp                             real=13034     comp=3877      LZX
+  autocomplete.css                               real=316       comp=278       LZX
+  bootstrap-theme.min.css                        real=19963     comp=3790      LZX
+  bootstrap.min.css                              real=117150    comp=28266     LZX
+  HelpContent.css                                real=8727      comp=2426      LZX
+  HelpMaster.css                                 real=828       comp=372       LZX
+  Site.css                                       real=9036      comp=2892      LZX
+  glyphicons-halflings-regular.eot               real=20335     comp=20335     stored
+  glyphicons-halflings-regular.svg               real=62927     comp=20101     LZX
+  glyphicons-halflings-regular.ttf               real=41280     comp=25092     LZX
+  glyphicons-halflings-regular.woff              real=23320     comp=23320     stored
+  glyphicons-halflings-regular.woff2             real=18028     comp=18028     stored
+  HelpConfigAdvanced.asp                         real=3037      comp=1284      LZX
+  HelpConfigModify.asp                           real=8976      comp=3440      LZX
+  HelpConfigView.asp                             real=6069      comp=2293      LZX
+  HelpEventLog.asp                               real=6235      comp=2317      LZX
+  HelpIndex.asp                                  real=5561      comp=2475      LZX
+  HelpInstrumentIO.asp                           real=5517      comp=2211      LZX
+  DMMControlPanel.png                            real=56210     comp=56137     LZX
+  InstrumentIdentifyImage.jpg                    real=16094     comp=15807     LZX
+  InstrumentImage.jpg                            real=18337     comp=18010     LZX
+  KeysightLogo.png                               real=20926     comp=7727      LZX
+  KeysightLogoInverted.png                       real=20075     comp=6588      LZX
+  Lxi.png                                        real=16929     comp=3464      LZX
+  Screenshot.png                                 real=60702     comp=59716     LZX
+  ScreenshotInverted.png                         real=61288     comp=60534     LZX
+  Footer.asp                                     real=1658      comp=748       LZX
+  Header.asp                                     real=3181      comp=1178      LZX
+  Authorize.asp                                  real=388       comp=326       LZX
+  LXIIdentification.xsd                          real=14262     comp=3941      LZX
+  bootstrap.min.js                               real=35452     comp=13882     LZX
+  CookieUtils.js                                 real=1004      comp=420       LZX
+  ie_onload.js                                   real=190       comp=190       stored
+  init.js                                        real=843       comp=414       LZX
+  instrument-io.js                               real=16571     comp=5728      LZX
+  jquery-1.12.3.min.js                           real=97180     comp=44401     LZX
+  jquery-ui-1.11.4.min.js                        real=240427    comp=89748     LZX
+  jquery.unobtrusive-ajax.min.js                 real=3819      comp=1788      LZX
+  jquery.validate.min.js                         real=22691     comp=9413      LZX
+  jquery.validate.unobtrusive.min.js             real=6046      comp=2651      LZX
+  modernizr-2.8.3.js                             real=51351     comp=20526     LZX
+  punycode.js                                    real=10988     comp=4246      LZX
+  respond.min.js                                 real=4377      comp=2405      LZX
+  AgilentLxiWebService.exe                       real=6144      comp=2957      LZX
+  AgilentLxiWebStartup.exe                       real=8192      comp=3539      LZX
+  LxiMdnsResponderLicense.txt                    real=11560     comp=4744      LZX
+  LxiEventsWeb.dll                               real=161280    comp=70389     LZX
+  LxiEventsBasic_CE.dll                          real=1075200   comp=388054    LZX
+  BOOST_LICENSE_1_0.txt                          real=1361      comp=836       LZX
+  Lan488Server32.dll                             real=82280     comp=41142     LZX
+  Portability.dll                                real=20328     comp=10866     LZX
+  portmap.exe                                    real=21864     comp=11573     LZX
+  Sicl32.dll                                     real=154472    comp=58051     LZX
+  siclland.dll                                   real=87400     comp=34415     LZX
+  siclrpc.dll                                    real=90472     comp=37944     LZX
+  PalIO.dll                                      real=370536    comp=160598    LZX
+  AgilentPalIO.dll                               real=26856     comp=13634     LZX
+  MTPdeviceicon.ico                              real=65937     comp=33212     LZX
+  devicesettings.xml                             real=5815      comp=1815      LZX
+  remote.asp                                     real=7938      comp=2323      LZX
+  WebControlDll.dll                              real=55296     comp=25357     LZX
+  FrontPanelStyle.css                            real=332       comp=264       LZX
+  HelpRemote.asp                                 real=1752      comp=800       LZX
+  34460A_Label.png                               real=13780     comp=13780     stored
+  34461A_Label.png                               real=13340     comp=13340     stored
+  34465A_Label.png                               real=15299     comp=15299     stored
+  34470A_Label.png                               real=14966     comp=14966     stored
+  344XXA.png                                     real=698405    comp=698405    stored
+  BH.png                                         real=14551     comp=14551     stored
+  BW.png                                         real=1033      comp=1033      stored
+  BW1.png                                        real=859       comp=859       stored
+  BW2.png                                        real=1630      comp=1630      stored
+  CE_ScreenShot1.bmp                             real=277494    comp=10753     LZX
+  CE_ScreenShot2.bmp                             real=277494    comp=10753     LZX
+  CE_ScreenShot3.bmp                             real=277494    comp=10753     LZX
+  transparent.gif                                real=233       comp=233       stored
+  IsStatusReady.asp                              real=281       comp=232       LZX
+  WebControlMethod.asp                           real=935       comp=388       LZX
+  FrontPanel_JS.js                               real=9259      comp=3738      LZX
+  NkBinFWUpdate.exe                              real=11776     comp=5114      LZX
+  nand_flash.dll                                 real=6144      comp=2373      LZX
+  TcpipDll.dll                                   real=5632      comp=1849      LZX
+  AgilentFrontPanelSerial.dll                    real=141312    comp=63180     LZX
+  Torreys.exe                                    real=5632      comp=2555      LZX
+  Torreys.dll                                    real=8576000   comp=2302851   LZX
+  encrypted_cirque.bin                           real=170544    comp=132061    LZX
+  encrypted_crc.txt                              real=4         comp=4         stored
+  InguardBB.bin                                  real=506328    comp=221855    LZX
+  fwRevision.h                                   real=1003      comp=452       LZX
+  SecureDataTool_SPD.exe                         real=84480     comp=36954     LZX
+  AgtFPNxp.2.40.hex                              real=21062     comp=8305      LZX
+  AgtFPMsp430.3.15.hex                           real=29296     comp=11055     LZX
+  AgtFrontPanelKeyMap.34460-66502.xml            real=14119     comp=2131      LZX
+  FrontPanel.Config.xml                          real=4174      comp=1411      LZX
+  Msp430FrontPanel.Config.xml                    real=3990      comp=1264      LZX
+  dbgcmd.exe                                     real=5632      comp=2291      LZX
+  WarmupRackTest.exe                             real=60416     comp=28088     LZX
+  zlibce.dll                                     real=100352    comp=29836     LZX
+  lpngce.dll                                     real=219136    comp=71429     LZX
+  splashData.txt                                 real=43        comp=43        stored
+  splash480X272.bmp                              real=16382     comp=1063      LZX
+  welcome-logo.jpg                               real=45977     comp=35929     LZX
+  SplashScreen2.exe                              real=16384     comp=7017      LZX
+  KeysightSans.ttf                               real=69124     comp=42466     LZX
+  KeysightSansBold.ttf                           real=68468     comp=42198     LZX
+  KeysightSansCondensed.ttf                      real=67704     comp=41608     LZX
+  KeysightSansCondensedBold.ttf                  real=67428     comp=41162     LZX
+  KeysightSansLight.ttf                          real=68008     comp=41940     LZX
+  KeysightSansLightCondensed.ttf                 real=68448     comp=41596     LZX
+  WebPageData.dll                                real=11776     comp=4990      LZX
+  DM344XXA.jar                                   real=542167    comp=253556    LZX
+  appletScript.asp                               real=511       comp=384       LZX
+  ControlInstrumentRemote.asp                    real=1338      comp=752       LZX
+  support.html                                   real=229       comp=229       stored
+  systemLog.txt                                  real=80        comp=80        stored
+  systemLog.asp                                  real=148       comp=148       stored
+  HelpControlInstrument.asp                      real=10123     comp=4418      LZX
+  HelpControlInstrumentOptions.asp               real=2176      comp=1036      LZX
+  34460AInstrumentImage.JPG                      real=17502     comp=17466     LZX
+  34461AInstrumentImage.JPG                      real=17148     comp=17100     LZX
+  34465AInstrumentImage.JPG                      real=18299     comp=17966     LZX
+  34470AInstrumentImage.JPG                      real=19050     comp=18692     LZX
+  eDbgTl.dll                                     real=77128     comp=35428     LZX
+  TcpConnectionA.dll                             real=58704     comp=27872     LZX
+  clientshutdown.exe                             real=24912     comp=12284     LZX
+  CMAccept.exe                                   real=28480     comp=14132     LZX
+  ConManClient2.exe                              real=83272     comp=38804     LZX
+  DeviceAgentTransport.dll                       real=43880     comp=20768     LZX

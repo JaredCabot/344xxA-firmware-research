@@ -1,0 +1,21 @@
+# Proprietary firmware and anything extracted from it — do not redistribute
+Firmware/
+Manuals/
+work/
+extract/
+*.upd
+*.nk.bin
+nk.bin
+nk_flat.bin
+tools/romfile
+tools/*.o
+*.pyc
+__pycache__/
+
+# derived from the copyrighted PDF manual — regenerate with pdftotext
+analysis/manual_fulltext.txt
+_repo.tgz
+
+# manual supplement: publish only the rendered PDF, not the build tooling
+manual_supplement/*
+!manual_supplement/344xxA_Firmware_Supplement.pdf
